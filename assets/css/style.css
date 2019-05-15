@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    list-style: none;
+      
+}
+
+li {
+    float: right;
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    border-right: 1px solid black;
+}
+
+li:first-child {
+    border: none;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
