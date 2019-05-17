@@ -6,8 +6,9 @@
 
 ul {
     list-style: none;
-    
-      
+    padding: 10px;
+    margin-top: 0;
+    padding-top: 20px
 }
 
 li a:hover {
@@ -53,6 +54,12 @@ li:first-child {
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
+    max-width: 248px;
+    margin: 0;
+    height: 96px;
+    padding: 10px;
+    font-size: 20pt;
+    padding-top: 30px;
     
 }
 
@@ -100,4 +107,11 @@ body {
     color: #ffffff;
     border: none;
     padding: 10px;
+}
+
+.head {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    padding: 0px;
 }
