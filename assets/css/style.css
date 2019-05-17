@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -41,33 +41,63 @@ li:first-child {
     padding: 10px;
 }
 
+.title {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid #cccccc;
+    background-color: #ffffff;
+}
+
 #name {
     float: left;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
+    
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 header {
     border-bottom: solid #cccccc;
     background-color: #ffffff;
     width: 100%;
+    height: 99px;
 }
 
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url(../images/prism.png);
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 .active {
     background-color: #4aaaa5;
     color: #ffffff;
 
+}
+
+.cm {
+    margin-top: 50px;
+}
+
+.name-input {
+    width: 939px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
 }
