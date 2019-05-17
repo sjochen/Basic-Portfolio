@@ -6,15 +6,27 @@
 
 ul {
     list-style: none;
+    
       
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 li {
     float: right;
+    border-right: 1px solid black;
+
+}
+
+li a {
     display:block;
     text-align: center;
     padding: 14px 16px;
-    border-right: 1px solid black;
+    color: #777777;
+    text-decoration: none;
 }
 
 li:first-child {
@@ -22,6 +34,40 @@ li:first-child {
 }
 
 
+.content {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+#name {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
+    display: table;
+}
+
+header {
+    border-bottom: solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+.active {
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
