@@ -140,18 +140,32 @@ body {
 
 .pic-wrap {
     position: relative;
-    height: 200px;
-    
+    height:200px;
 }
 
 .bottom{
     position: absolute;
     bottom: 10px;
     left: 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: #4aaaa5;    
+    text-align: center;
+    color: white;
 }
-    
+
+.left{
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: #4aaaa5;    
+    text-align: center;
+    color: white;
+}
 
 
 
