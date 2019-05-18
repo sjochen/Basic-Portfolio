@@ -140,7 +140,7 @@ body {
 
 .pic-wrap {
     position: relative;
-    max-width: 200px;
+    height: 200px;
     
 }
 
@@ -148,7 +148,8 @@ body {
     position: absolute;
     bottom: 10px;
     left: 0px;
-    height: -2000;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
     
 
