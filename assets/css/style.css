@@ -39,7 +39,7 @@ li:first-child {
     max-width: 960px;
     margin: auto;
     background: white;
-    padding: 10px;
+    padding: 50px;
 }
 
 .title {
@@ -100,7 +100,7 @@ body {
 }
 
 .name-input {
-    width: 939px;
+    width: 860px;
 }
 
 #button {
@@ -122,3 +122,35 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.picsfloat {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.pic-wrap {
+    position: relative;
+    max-width: 200px;
+    
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    height: -2000;
+}
+    
+
+
+
