@@ -40,6 +40,7 @@ li:first-child {
     margin: auto;
     background: white;
     padding: 50px;
+    overflow: auto;
 }
 
 .title {
@@ -131,7 +132,79 @@ body {
 
 
 
-.picsfloat {
+#ph1 {
+    background: url(../images/ph1.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  #ph2 {
+    background: url(../images/ph2.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  #ph3 {
+    background: url(../images/ph3.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  #ph4 {
+    background: url(../images/ph4.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  #ph5 {
+    background: url(../images/ph5.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+   
+  .text-box {
+    Padding: 5px;
+    background-color:#4aaaa5;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16pt;
+    color:#ffffff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* this is the css referencing the commented out code*/
+
+/*.picsfloat {
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -165,7 +238,10 @@ body {
     background-color: #4aaaa5;    
     text-align: center;
     color: white;
-}
+}*/
 
+
+
+  
 
 
